@@ -45,11 +45,10 @@
   color: var(--sound-name-color);
   font-size: 0.5em;
 }
-.key:hover{
+.pressed{
   transform: scale(1.1);
+  background: hsl(120, 100%, 25%,0.5);
   cursor: pointer;
 }
-.key:active{
-  background-color: hsl(120, 100%, 25%,0.5);
-}
+
 
